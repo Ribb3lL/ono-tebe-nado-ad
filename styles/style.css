@@ -91,9 +91,10 @@
     font-family: 'Raleway', serif;
     font-weight: 700;
     font-size: 100px;
-    line-height: 1;
+    line-height: 1.15;
     text-transform: uppercase;
     z-index: 2;
+    letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -106,10 +107,14 @@
 
 .aligned-text_center {
     text-align: center;
+    margin-top: 15px;
+    margin-right: -35px;
 }
 
 .aligned-text_right {
     text-align: right;
+    margin-top: 30px;
+    margin-right: -30px;
 }
 
 .cover__description {
@@ -152,112 +157,112 @@
 }
 
 .lots {
-  width: 1052px;
-  height: 723px;
-  margin: 180px auto 0; 
-  box-sizing: border-box;
+    width: 1052px;
+    height: 723px;
+    margin: 180px auto 0; 
+    box-sizing: border-box;
 }
 
 .lots__heading {
-  margin: 0 0 27px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.15;
-  text-transform: uppercase;
-  color: #000000;
+    margin: 0 0 27px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .lots__card-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .lots__card-list-item {
-  width: 334px;
-  min-height: 596px;
+    width: 334px;
+    min-height: 596px;
 }
 
 .card-link {
-  display: block;
-  height: 100%;
-  text-decoration: none;
+    display: block;
+    height: 100%;
+    text-decoration: none;
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  min-height: 596px;
-  padding: 48px 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    min-height: 596px;
+    padding: 48px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(../images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(../images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .overlay {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 .card__title {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
 
 .card__text {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #ffffff;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ffffff;
 }
 
 .lots__look-more-link {
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 40px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #000000;
-  text-decoration: underline;
-  text-underline-offset: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .about {
@@ -268,7 +273,6 @@
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
-    
 }
 
 .about__logo {
